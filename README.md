@@ -16,7 +16,7 @@
 ### 方式1: 通过npx使用（推荐）
 
 ```bash
-npx -y yapi-mcp-server@latest
+npx -y @neigri/yapi-mcp-server@latest
 ```
 
 ### 方式2: 本地构建
@@ -45,7 +45,7 @@ go build -o bin/yapi-mcp-server .
       "command": "npx",
       "args": [
         "-y",
-        "yapi-mcp-server@latest"
+        "@neigri/yapi-mcp-server@latest"
       ],
       "env": {
         "YAPI_BASE_URL": "http://your-yapi-instance.com",
@@ -65,7 +65,7 @@ go build -o bin/yapi-mcp-server .
       "command": "npx",
       "args": [
         "-y",
-        "@your-scope/yapi-mcp-server@latest"
+        "@neigri/yapi-mcp-server@latest"
       ],
       "env": {
         "YAPI_BASE_URL": "http://your-yapi-instance.com",

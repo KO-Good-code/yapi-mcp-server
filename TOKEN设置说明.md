@@ -181,7 +181,7 @@ echo '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | go run .
       "command": "npx",
       "args": [
         "-y",
-        "yapi-mcp-server@latest"
+        "@neigri/yapi-mcp-server@latest"
       ],
       "env": {
         "YAPI_BASE_URL": "http://your-yapi-instance.com",

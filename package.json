@@ -1,5 +1,5 @@
 {
-  "name": "yapi-mcp-server",
+  "name": "@neigri/yapi-mcp-server",
   "version": "1.0.0",
   "description": "YApi MCP Server - 从YApi文档链接读取接口信息并提供给大模型",
   "main": "index.js",
@@ -20,14 +20,18 @@
     "api-documentation",
     "model-context-protocol"
   ],
-  "author": "makeblock",
+  "author": "KO-Good-code",
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/makeblock/yapi-mcp-server.git"
+    "url": "git+https://github.com/KO-Good-code/yapi-mcp-server.git"
+  },
+  "homepage": "https://github.com/KO-Good-code/yapi-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/KO-Good-code/yapi-mcp-server/issues"
   },
   "private": false
 }

@@ -36,7 +36,7 @@ echo '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | go run .
 创建 `.npmrc` 文件：
 
 ```bash
-@your-scope:registry=https://your-private-npm-registry.com
+@neigri:registry=https://your-private-npm-registry.com
 //your-private-npm-registry.com/:_authToken=your-token-here
 ```
 
@@ -46,7 +46,7 @@ echo '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | go run .
 
 ```json
 {
-  "name": "@your-scope/yapi-mcp-server",
+  "name": "@neigri/yapi-mcp-server",
   "version": "1.0.0",
   "repository": {
     "type": "git",
@@ -87,7 +87,7 @@ npm publish
       "command": "npx",
       "args": [
         "-y",
-        "@your-scope/yapi-mcp-server@latest"
+        "@neigri/yapi-mcp-server@latest"
       ],
       "env": {
         "YAPI_BASE_URL": "http://your-yapi-instance.com",

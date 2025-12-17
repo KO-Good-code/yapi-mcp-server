@@ -35,7 +35,7 @@ npm publish
 
 ```bash
 # 如果使用 scope（推荐）
-@makeblock:registry=https://your-private-npm-registry.com
+@neigri:registry=https://your-private-npm-registry.com
 //your-private-npm-registry.com/:_authToken=your-token-here
 
 # 或者全局配置
@@ -52,7 +52,7 @@ npm login --registry=https://your-private-npm-registry.com
 或者如果使用 scope：
 
 ```bash
-npm login --scope=@makeblock --registry=https://your-private-npm-registry.com
+npm login --scope=@neigri --registry=https://your-private-npm-registry.com
 ```
 
 ### 步骤3: 发布
@@ -124,8 +124,7 @@ npm logout
 ## 当前项目配置
 
 根据 `package.json`：
-- 包名: `yapi-mcp-server`（公共包名）
-- 如果发布到私有仓库，建议改为: `@makeblock/yapi-mcp-server`
+- 包名: `@neigri/yapi-mcp-server`（使用 scope）
 
 ## 快速命令参考
 
