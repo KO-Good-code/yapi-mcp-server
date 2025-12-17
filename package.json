@@ -1,0 +1,34 @@
+{
+  "name": "yapi-mcp-server",
+  "version": "1.0.0",
+  "description": "YApi MCP Server - 从YApi文档链接读取接口信息并提供给大模型",
+  "main": "index.js",
+  "bin": {
+    "yapi-mcp-server": "./bin/yapi-mcp-server"
+  },
+  "scripts": {
+    "build": "go build -o bin/yapi-mcp-server .",
+    "postinstall": "chmod +x bin/yapi-mcp-server || echo 'chmod failed'"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "yapi",
+    "api-documentation",
+    "model-context-protocol"
+  ],
+  "author": "makeblock",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makeblock/yapi-mcp-server.git"
+  },
+  "private": false
+}
+

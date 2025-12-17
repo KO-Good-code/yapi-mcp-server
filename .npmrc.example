@@ -1,0 +1,8 @@
+# 配置私有npm仓库
+registry=https://your-private-npm-registry.com
+# 或者使用scope配置
+@your-scope:registry=https://your-private-npm-registry.com
+
+# 如果需要认证token
+//your-private-npm-registry.com/:_authToken=your-token-here
+
